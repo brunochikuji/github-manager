@@ -1,0 +1,61 @@
+export const USER = {
+    'login': 'brunochikuji',
+    'id': 17621249,
+    'node_id': 'MDQ6VXNlcjE3NjIxMjQ5',
+    'avatar_url': 'https://avatars1.githubusercontent.com/u/17621249?v=4',
+    'gravatar_id': '',
+    'url': 'https://api.github.com/users/brunochikuji',
+    'html_url': 'https://github.com/brunochikuji',
+    'followers_url': 'https://api.github.com/users/brunochikuji/followers',
+    'following_url': 'https://api.github.com/users/brunochikuji/following{/other_user}',
+    'gists_url': 'https://api.github.com/users/brunochikuji/gists{/gist_id}',
+    'starred_url': 'https://api.github.com/users/brunochikuji/starred{/owner}{/repo}',
+    'subscriptions_url': 'https://api.github.com/users/brunochikuji/subscriptions',
+    'organizations_url': 'https://api.github.com/users/brunochikuji/orgs',
+    'repos_url': 'https://api.github.com/users/brunochikuji/repos',
+    'events_url': 'https://api.github.com/users/brunochikuji/events{/privacy}',
+    'received_events_url': 'https://api.github.com/users/brunochikuji/received_events',
+    'type': 'User',
+    'site_admin': false,
+    'name': 'Bruno Chikuji',
+    'company': '@gitquickfast',
+    'blog': 'https://www.brunochikuji.tk',
+    'location': 'São Paulo - Brasil',
+    'email': null,
+    'hireable': true,
+    'bio': 'Fullstack developer working with Ionic Framework (Angular 4 and Typescript),  Python REST API and Ruby on Rails.',
+    'public_repos': 8,
+    'public_gists': 0,
+    'followers': 8,
+    'following': 10,
+    'created_at': '2016-03-03T17:26:56Z',
+    'updated_at': '2019-06-28T20:55:28Z'
+};
+
+export const USER_SEARCH_RESULTS = {
+    'total_count': 773,
+    'incomplete_results': false,
+    'items': [
+        {
+            'login': 'brunochikuji',
+            'id': 17621249,
+            'node_id': 'MDQ6VXNlcjE3NjIxMjQ5',
+            'avatar_url': 'https://avatars1.githubusercontent.com/u/17621249?v=4',
+            'gravatar_id': '',
+            'url': 'https://api.github.com/users/brunochikuji',
+            'html_url': 'https://github.com/brunochikuji',
+            'followers_url': 'https://api.github.com/users/brunochikuji/followers',
+            'following_url': 'https://api.github.com/users/brunochikuji/following{/other_user}',
+            'gists_url': 'https://api.github.com/users/brunochikuji/gists{/gist_id}',
+            'starred_url': 'https://api.github.com/users/brunochikuji/starred{/owner}{/repo}',
+            'subscriptions_url': 'https://api.github.com/users/brunochikuji/subscriptions',
+            'organizations_url': 'https://api.github.com/users/brunochikuji/orgs',
+            'repos_url': 'https://api.github.com/users/brunochikuji/repos',
+            'events_url': 'https://api.github.com/users/brunochikuji/events{/privacy}',
+            'received_events_url': 'https://api.github.com/users/brunochikuji/received_events',
+            'type': 'User',
+            'site_admin': false,
+            'score': 85.98222
+        }
+    ]
+};
