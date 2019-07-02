@@ -9,7 +9,6 @@ import {SearchUserParams, SearchUsersResult, User} from '../interfaces/github';
 export class GithubService {
 
     public apiUrl = 'https://api.github.com';
-    public apiKey = '088d0ebb94c3efa4c9b9741216c4aa9f68570f9a';
     constructor(
         private http: HttpClient
     ) { }
@@ -66,14 +65,5 @@ export class GithubService {
             );
         });
     }
-
-    get httpHeaders() {
-        return {
-            headers: {
-                Authorization: `Basic ${this.apiKey}`
-            }
-        };
-    }
-
 
 }
